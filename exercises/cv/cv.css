@@ -1,0 +1,205 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+body {
+  background-color: #121212;
+  font-family: "Roboto", sans-serif;
+  font-size: 15px;
+  color:#4e6c89
+}
+
+#main-container{
+    width: 1024px;
+    margin: 25px auto;
+}
+
+/*header-container*/
+#header{
+  background-color:#95b7db;
+  margin:0;
+  padding: 20px;
+  display:flex;
+}
+/*header-info*/
+.info{
+  width:49%;
+}
+h1{
+  margin: 0;
+  font-size: 38px;
+  letter-spacing: 2px;
+  color: #1c2936;
+}
+h2{
+  padding: 5px 0;
+  color:#6b91b7;
+  font-weight: 500;
+  font-size: 20px
+}
+.desc{
+padding-top: 10px;
+font-size:15px;
+font-weight:600;
+
+}
+/*header-links*/
+.links{
+  width:49%;
+  text-align:end;
+  color: #34495E;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  line-height: 22px;
+}
+.links i{
+  margin-left: 10px;
+}
+.links a{
+  text-decoration: none;
+  color: #34495E;   
+}
+
+/*Content-container*/
+#content{
+  background-color:#fff;
+  padding: 20px;
+  display: flex;
+  justify-content: space-between;
+}
+
+/*Columns*/
+.col{
+width:49%;
+display:flex;
+flex-direction: column;
+gap:20px;
+}
+
+/*Sections*/
+section{
+display:flex;
+flex-direction: column;
+gap: 10px
+}
+
+section h3{
+font-size: 25px;
+font-weight: 500;
+letter-spacing: 1px;
+color: #6b91b7;
+}
+
+h4{
+font-size: 18px;
+letter-spacing: 2px;
+font-weight: 800;
+}
+ul{
+margin-left: 25px;
+font-size: 14px;
+font-weight: 500;
+padding: 2px;
+}
+ul li{
+padding: 2px;
+}
+
+/* CONTENEDOR PRINCIPAL DEL TIMELINE */
+.timeline {
+  position: relative;
+  width: 90%;
+  margin: 0;
+  padding: 20px 0;
+}
+/* CADA ITEM DEL TIMELINE */
+.timeline-item {
+display: flex;
+margin-bottom: 50px;
+}
+/* LAS FECHAS DEL EVENTO */
+.timeline-year {
+display: inline;
+align-self: baseline;
+color: #333;
+font-size: 10px;
+text-align: center;
+margin-top: -10px;
+}
+/*Linea de eventos*/
+.timeline-year::after{
+ content: "";
+ position: absolute;
+ left: 45px;
+ top: 0;
+ width: 2px;
+ height: 90%;
+ background: #ccc;
+}
+/* EL CÍRCULO O PUNTO QUE MARCA EL EVENTO */
+.timeline-icon {
+position: absolute;
+left: 40px;
+width: 12px;
+height: 12px;
+background: #aaa;
+border-radius: 50%;
+z-index: 1;
+}
+/* EL CONTENIDO DEL EVENTO */
+.timeline-content {
+ padding: 0px;
+ margin-left: 40px;
+ margin-top: -25px;
+ display:flex;
+ flex-direction: column;
+ gap:5px;
+}
+.timeline-content h5{
+font-size: 14px;
+letter-spacing:2px;
+font-weight: 900;
+color:#1c2936;
+}
+.location{
+display: flex;
+justify-content: space-between;
+color: #80b6d7;
+font-size: 18px;
+font-weight: 200;
+}
+.location i{
+margin: 0 5px;
+}
+
+.stack{
+display:flex;
+}
+.skills{
+border-radius: 8px;
+background-color: #528CC6;
+color:white;
+padding:8px 12px;
+margin:8px;
+text-align: center;
+letter-spacing: 1px;
+}
+
+#footer{
+background-color:#95b7db;
+margin:0;
+padding: 20px;
+display:flex;
+justify-content: space-between;
+}
+
+#footer h6{
+font-size: 30px;
+letter-spacing: 2px;;
+}
+#footer p{
+align-self: center;
+font-size:20px;
+}

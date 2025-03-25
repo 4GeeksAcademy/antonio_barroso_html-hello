@@ -1,0 +1,128 @@
+body{
+    margin:0;
+    padding: 0;
+    background: lightgray;
+}
+header{
+    text-align: center;
+    border-bottom: 1px whitesmoke solid;
+    width: 100%;
+}
+
+.container{
+    margin: auto;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    background: lightgray;
+}
+.post{
+    width: 450px;
+    margin: 1%;
+    background: whitesmoke;
+    border-radius: 10px;
+    box-shadow: 5px 5px 10px 15px rgb(167, 166, 166);
+}
+.post-header{
+    display:flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px 15px;
+    margin: 0;
+    font-family: "Roboto", sans-serif;
+}
+.avatar{
+    display: flex;
+    align-items: center;
+    gap:3px;
+}
+
+.bubble{
+    background: linear-gradient(45deg, #f09433, #e6683c, #dc2743, #cc2366, #bc1888);
+    padding: 1.5px; /* Ajusta el grosor del borde */
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.avatar img{
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    object-fit: contain;
+    padding:1px;
+    background-color: white;
+}
+img{
+    width: 100%;
+    height: auto;
+    object-fit: cover;
+}
+
+.post-icons{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+    font-size: 20px;
+    font-family: 'roboto', sans-serif;
+    font-style: normal;
+    border-bottom:1px solid #ccc;
+}
+
+.icons-row{
+    display:flex;
+    align-items: center;
+    gap:8px;
+}
+
+.actions{
+    display: flex;
+    align-items: center;
+    gap:2px;
+}
+.actions p{
+    margin: 0;
+    font-size: 12px;
+}
+
+i{
+    cursor:pointer;
+}
+
+.post-body{
+    padding:10px;
+    margin:0;
+    gap:5px;
+}
+
+p{
+    margin:0;
+}
+
+.spacer{
+    height:7px;
+}
+
+.date{
+    padding-top:10px;
+    color:#686767
+}
+
+.hashtag{
+    color:rgb(42, 92, 167);
+    cursor: pointer;
+}
+
+.avatar-caption{
+    display: flex;
+    align-items: center;
+    gap:2px;
+}
+
+.caption{
+    display:flex;
+    flex-direction: column;
+    align-items: flex-start;
+
+}
